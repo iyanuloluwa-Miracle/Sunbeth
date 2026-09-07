@@ -1,6 +1,7 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue'
 import HeroSection from './components/HeroSection.vue'
+import WhatWeDo from './components/WhatWeDo.vue'
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import HeroSection from './components/HeroSection.vue'
     <AppHeader />
     <main>
       <HeroSection />
+      <WhatWeDo />
     </main>
   </div>
 </template>
